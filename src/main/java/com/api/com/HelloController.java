@@ -10,5 +10,10 @@ public class HelloController {
 	public String hello() {
 		return "this is demo project";
 	}
+	
+	@GetMapping("/hello")
+	public String hellobro() {
+		return "this is this is bro project";
+	}
 
 }
